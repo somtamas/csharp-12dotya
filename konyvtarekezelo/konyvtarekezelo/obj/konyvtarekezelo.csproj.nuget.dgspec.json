@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
+    "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
+    "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "projectUniqueName": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
         "projectName": "konyvtarekezelo",
-        "projectPath": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
-        "packagesPath": "C:\\Users\\somlyaitamas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
+        "projectPath": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "packagesPath": "C:\\Users\\csaszardominik\\.nuget\\packages\\",
+        "outputPath": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\somlyaitamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\csaszardominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
