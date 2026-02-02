@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
+    "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
   },
   "projects": {
-    "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
+    "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "projectUniqueName": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
         "projectName": "konyvtarekezelo",
-        "projectPath": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "projectPath": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
         "packagesPath": "C:\\Users\\csaszardominik\\.nuget\\packages\\",
-        "outputPath": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
+        "outputPath": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\csaszardominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,12 +40,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

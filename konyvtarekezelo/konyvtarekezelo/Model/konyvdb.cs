@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace konyvtarekezelo.Model
 {
-    internal class konyv
+    internal class konyvdb
     {
+
         private int _id;
         private string _book_title;
         private string _author_name;
@@ -24,7 +24,7 @@ namespace konyvtarekezelo.Model
         public int Price { get => _price; set => _price = value; }
 
 
-        public konyv(int id, string book_title, string author_name, string genre, int page_count, int price)
+        public konyvdb(int id, string book_title, string author_name, string genre, int page_count, int price)
         {
             Id = id;
             Book_title = book_title;
@@ -34,15 +34,9 @@ namespace konyvtarekezelo.Model
             Price = price;
         }
 
-        public konyv()
+        public konyvdb()
         {
-
-        }
-
-
-        public override string ToString()
-        {
-            return $"{Id}, {Book_title}, {Author_name}, {Genre}, {Page_count}, {Price}";
+            
         }
     }
 }

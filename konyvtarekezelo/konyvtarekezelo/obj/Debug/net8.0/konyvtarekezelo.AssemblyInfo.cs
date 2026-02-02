@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konyvtarekezelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b43773a9c83282ecb01531e6ebf3b3e5e121964d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c4d774f42afbe8686bd92bd163588e4b958d094")]
 [assembly: System.Reflection.AssemblyProductAttribute("konyvtarekezelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konyvtarekezelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
