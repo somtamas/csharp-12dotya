@@ -13,9 +13,10 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        adatBeolvasas("könyvecskék.csv", 6, ',', true);
+        adatBeolvasas("könyvek.csv", 6, ',', true);
         adatBetoltes(adatok);
         ComedyOsszegzes(konyvek);
+        AdatokbetoltesDB(dbadatok);
     }
 
     private static void ComedyOsszegzes(List<konyv> konyvek)
@@ -34,12 +35,19 @@ internal class Program
 
     private static void adatBeolvasas(string v1, int v2, char v3, bool v4)
     {
-        adatok = reader.FileRead(v1,v2,v3,v4);
+        adatok = reader.FileRead(v1, v2, v3, v4);
     }
 
 
 
+    private static void AdatokbetoltesDB(DataTable adatok)
+    {
+        foreach (DataRow row in adatok.Rows)
+        {
+            
 
+        }
+    }
 
 
 
@@ -51,6 +59,6 @@ internal class Program
 
     private static void DBCheck(string connectionString)
     {
-        DataBase.DBConnectionCheck(connectionString);
+        DataBase.DBConnection Check(connectionString);
     }
 }
