@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace konyvtarekezelo.Model
 {
-    internal class konyvdb
+    internal class Konyvdb
     {
 
         private int _id;
@@ -24,7 +24,7 @@ namespace konyvtarekezelo.Model
         public int Price { get => _price; set => _price = value; }
 
 
-        public konyvdb(int id, string book_title, string author_name, string genre, int page_count, int price)
+        public Konyvdb(int id, string book_title, string author_name, string genre, int page_count, int price)
         {
             Id = id;
             Book_title = book_title;
@@ -34,7 +34,7 @@ namespace konyvtarekezelo.Model
             Price = price;
         }
 
-        public konyvdb()
+        public Konyvdb()
         {
             
         }

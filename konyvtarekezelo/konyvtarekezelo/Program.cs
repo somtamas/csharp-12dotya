@@ -8,15 +8,20 @@ internal class Program
     public static FileReadDLL.ReadFromFile reader = new FileReadDLL.ReadFromFile();
     public static List<List<string>> adatok = new List<List<string>>();
     public static List<konyv> konyvek = new List<konyv>();
+    public static List<konyv> konyvekdb = new List<konyv>();
     public static DataTable dbadatok = new DataTable();
-    public static readonly string connectionString = "server=localhost;user=root;database=MOCK_DATA;";
+    public static readonly string connectionString = "server=localhost;user=root;database=mock_data;";
 
     private static void Main(string[] args)
     {
         adatBeolvasas("könyvek.csv", 6, ',', true);
         adatBetoltes(adatok);
+
         ComedyOsszegzes(konyvek);
+
         AdatokbetoltesDB(dbadatok);
+        DBCheck(connectionString);
+        SelectFromTable("sokkonyv", connectionString);
     }
 
     private static void ComedyOsszegzes(List<konyv> konyvek)
@@ -38,14 +43,17 @@ internal class Program
         adatok = reader.FileRead(v1, v2, v3, v4);
     }
 
-
-
-    private static void AdatokbetoltesDB(DataTable adatok)
+    private static void AdatokbetoltesDB(DataTable dbadatok)
     {
-        foreach (DataRow row in adatok.Rows)
+        foreach (DataRow row in dbadatok.Rows)
         {
-            
-
+            Konyvdb konyv = new Konyvdb();
+            konyv.Id = row.Field<int>(0);
+            konyv.Book_title = row.Field<string>(1);
+            konyv.Author_name = row.Field<string>(2);
+            konyv.Genre = row.Field<string>(3);
+            konyv.Page_count = row.Field<int>(4);
+            konyv.Price = row.Field<int>(5);
         }
     }
 
@@ -59,6 +67,6 @@ internal class Program
 
     private static void DBCheck(string connectionString)
     {
-        DataBase.DBConnection Check(connectionString);
+        DataBase.DBConnectionCheck(connectionString);
     }
 }
