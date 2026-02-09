@@ -200,19 +200,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\csaszardominik\\.nuget\\packages\\": {}
+    "C:\\Users\\csasz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+      "projectUniqueName": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
       "projectName": "konyvtarekezelo",
-      "projectPath": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
-      "packagesPath": "C:\\Users\\csaszardominik\\.nuget\\packages\\",
-      "outputPath": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
+      "projectPath": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+      "packagesPath": "C:\\Users\\csasz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\csaszardominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\csasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -220,7 +220,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -51,5 +51,24 @@ namespace konyvtarekezelo.Model
             return dataTable;
         }
 
+
+        public static List<Konyvdb> AdatokbetoltesDB(DataTable dbadatok)
+        {
+            List<Konyvdb> konyvek = new List<Konyvdb>();
+            foreach (DataRow row in dbadatok.Rows)
+            {
+                Konyvdb k = new Konyvdb();
+                k.Id = row.Field<int>(0);
+                k.Book_title = row.Field<string>(1);
+                k.Author_name = row.Field<string>(2);
+                k.Genre = row.Field<string>(3);
+                k.Page_count = row.Field<int>(4);
+                k.Price = row.Field<int>(5);
+                konyvek.Add(k);
+            }
+
+            return konyvek;
+        }
+
     }
 }

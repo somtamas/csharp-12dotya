@@ -8,8 +8,8 @@ internal class Program
     public static FileReadDLL.ReadFromFile reader = new FileReadDLL.ReadFromFile();
     public static List<List<string>> adatok = new List<List<string>>();
     public static List<konyv> konyvek = new List<konyv>();
-    public static List<konyv> konyvekdb = new List<konyv>();
-    public static DataTable dbadatok = new DataTable();
+    public static List<Konyvdb> konyvekdb = new List<Konyvdb>();
+    //public static DataTable dbadatok = new DataTable();
     public static readonly string connectionString = "server=localhost;user=root;database=mock_data;";
 
     private static void Main(string[] args)
@@ -19,9 +19,16 @@ internal class Program
 
         ComedyOsszegzes(konyvek);
 
-        AdatokbetoltesDB(dbadatok);
-        DBCheck(connectionString);
-        SelectFromTable("sokkonyv", connectionString);
+        //AdatokbetoltesDB(dbadatok);
+        //DBCheck(connectionString);
+        //SelectFromTable("sokkonyv", connectionString);
+        DataBase.DBConnectionCheck(connectionString);
+        var data = DataBase.GetData("mock_data", connectionString);
+        konyvekdb = DataBase.AdatokbetoltesDB(data);
+        foreach (var item in konyvekdb)
+        {
+            Console.WriteLine(item.Book_title);
+        }
     }
 
     private static void ComedyOsszegzes(List<konyv> konyvek)
@@ -41,32 +48,5 @@ internal class Program
     private static void adatBeolvasas(string v1, int v2, char v3, bool v4)
     {
         adatok = reader.FileRead(v1, v2, v3, v4);
-    }
-
-    private static void AdatokbetoltesDB(DataTable dbadatok)
-    {
-        foreach (DataRow row in dbadatok.Rows)
-        {
-            Konyvdb konyv = new Konyvdb();
-            konyv.Id = row.Field<int>(0);
-            konyv.Book_title = row.Field<string>(1);
-            konyv.Author_name = row.Field<string>(2);
-            konyv.Genre = row.Field<string>(3);
-            konyv.Page_count = row.Field<int>(4);
-            konyv.Price = row.Field<int>(5);
-        }
-    }
-
-
-
-    private static void SelectFromTable(string tablename, string connectionString)
-    {
-        dbadatok = DataBase.GetData(tablename, connectionString);
-        Console.WriteLine(".");
-    }
-
-    private static void DBCheck(string connectionString)
-    {
-        DataBase.DBConnectionCheck(connectionString);
     }
 }
