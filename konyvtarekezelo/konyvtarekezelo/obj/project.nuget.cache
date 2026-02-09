@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "25VjWF4auKg=",
+  "dgSpecHash": "X3//+1/Nmsc=",
   "success": true,
-  "projectFilePath": "D:\\csdaszaf\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\aszafcsd\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\csaszardominik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\csaszardominik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\csaszardominik\\.nuget\\packages\\mysqlconnector\\2.5.0\\mysqlconnector.2.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
