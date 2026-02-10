@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
+    "C:\\Users\\totya\\Source\\Repos\\csharp-12dotya\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
+    "C:\\Users\\totya\\Source\\Repos\\csharp-12dotya\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "projectUniqueName": "C:\\Users\\totya\\Source\\Repos\\csharp-12dotya\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
         "projectName": "konyvtarekezelo",
-        "projectPath": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
-        "packagesPath": "C:\\Users\\csasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
+        "projectPath": "C:\\Users\\totya\\Source\\Repos\\csharp-12dotya\\konyvtarekezelo\\konyvtarekezelo\\konyvtarekezelo.csproj",
+        "packagesPath": "C:\\Users\\totya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\totya\\Source\\Repos\\csharp-12dotya\\konyvtarekezelo\\konyvtarekezelo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\vs share\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\csasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\totya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
