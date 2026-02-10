@@ -10,25 +10,24 @@ internal class Program
     public static List<konyv> konyvek = new List<konyv>();
     public static List<Konyvdb> konyvekdb = new List<Konyvdb>();
     //public static DataTable dbadatok = new DataTable();
-    public static readonly string connectionString = "server=localhost;user=root;database=mock_data;";
+    public static readonly string connectionString = "server=localhost;user=root;database=data;";
 
     private static void Main(string[] args)
     {
+        //File read
         adatBeolvasas("könyvek.csv", 6, ',', true);
         adatBetoltes(adatok);
-
         ComedyOsszegzes(konyvek);
 
-        //AdatokbetoltesDB(dbadatok);
-        //DBCheck(connectionString);
-        //SelectFromTable("sokkonyv", connectionString);
+        //Database
         DataBase.DBConnectionCheck(connectionString);
         var data = DataBase.GetData("mock_data", connectionString);
         konyvekdb = DataBase.AdatokbetoltesDB(data);
-        foreach (var item in konyvekdb)
-        {
-            Console.WriteLine(item.Book_title);
-        }
+        //foreach (var item in konyvekdb)
+        //{
+        //    Console.WriteLine(item.Book_title);
+        //}
+        Console.ReadKey();
     }
 
     private static void ComedyOsszegzes(List<konyv> konyvek)

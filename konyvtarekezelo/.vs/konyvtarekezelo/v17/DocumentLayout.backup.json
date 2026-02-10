@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\",
+  "WorkspaceRootPath": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|c:\\users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|c:\\users\\csasz\\desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|solutionrelative:konyvtarekezelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|c:\\users\\csasz\\desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|solutionrelative:konyvtarekezelo\\model\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|c:\\users\\csasz\\desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\model\\konyvdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA14414-BF16-479A-8B10-EFE88DBC76A4}|konyvtarekezelo\\konyvtarekezelo.csproj|solutionrelative:konyvtarekezelo\\model\\konyvdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +28,48 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Program.cs",
               "RelativeDocumentMoniker": "konyvtarekezelo\\Program.cs",
-              "ToolTip": "C:\\Users\\somlyaitamas\\c#projekt\\konyvtarekezelo\\konyvtarekezelo\\Program.cs",
+              "ToolTip": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Program.cs",
               "RelativeToolTip": "konyvtarekezelo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T17:11:08.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "konyvdb.cs",
+              "DocumentMoniker": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Model\\konyvdb.cs",
+              "RelativeDocumentMoniker": "konyvtarekezelo\\Model\\konyvdb.cs",
+              "ToolTip": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Model\\konyvdb.cs",
+              "RelativeToolTip": "konyvtarekezelo\\Model\\konyvdb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T09:17:43.733Z",
+              "WhenOpened": "2026-02-09T17:11:07.727Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Model\\DataBase.cs",
+              "RelativeDocumentMoniker": "konyvtarekezelo\\Model\\DataBase.cs",
+              "ToolTip": "C:\\Users\\csasz\\Desktop\\csoportmunka\\konyvtarekezelo\\konyvtarekezelo\\Model\\DataBase.cs",
+              "RelativeToolTip": "konyvtarekezelo\\Model\\DataBase.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T17:11:05.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
